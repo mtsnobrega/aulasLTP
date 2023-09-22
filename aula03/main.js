@@ -6,7 +6,7 @@ cor = cor.toUpperCase()
 //o toUpperCase transforma a string para maiuscula
 //o tolowercase transforma a string para minuscula 
 
-if(cor .toUpperCase() == 'VERMELHO'){
+if(cor  == 'VERMELHO'){
     alert(`Pare`);
 } else if(cor=='VERDE'){
     alert(`Prossiga`);
