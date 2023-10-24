@@ -1,0 +1,53 @@
+/*
+let val1 = parseInt(prompt('Qual sua idade?'));
+let val2 = prompt('Já possui habilitação?');
+val2 = val2.toLowerCase()
+
+if(val1 >= 18 && val2 == 'sim'){
+    alert('Pode dirigir');
+}else if(val1 < 18){
+    alert('Vc ainda não pode dirigir');
+
+}else{alert('Digite apenas numeros ');}
+
+
+
+Portas Logicas: not, and, or
+
+NOT (!=): É uma porta de negação, ou seja nega um condição;
+    EX: 
+    2 != 3 => True 
+    5 != 5 => False
+
+AND (&&): A porta and, precisa que todas as condições sejam verdadeiras para retornar true
+    Ex: 
+    nota = 7
+    freq = 70
+
+    nota >= 7 && freq >= 75 --> False
+    nota >= 7 && freq >= 70 --> True
+
+OR (||): Porta OR, precisa que pelo menos uma condição seja verdadeira para retornar TRUE 
+    Ex:
+    nota = 7 
+    freq = 56
+
+    nota >= 7  || freq >= 70 --> True
+    nota >= 10 || freq >= 80 --> False 
+*/
+
+let temp = prompt('Está chovendo?');
+temp = temp.toLowerCase();
+if(temp == 'sim'){
+    let z = prompt('')
+}
+
+
+let x = prompt('Vc é gestante, idoso ou PCD?');
+x = x.toLowerCase();
+
+if (x == 'gestante'|| x == 'idoso'|| x == 'pcd'){
+    alert('Estacione em uma vaga preferencial!');
+
+
+}else{alert('Estacione em uma vaga comum!');}
